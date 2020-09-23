@@ -50,8 +50,8 @@ class Unit {
     };
 
     changeState() {
-        this.el1.innerHTML = this.el1.innerHTML - 5
-        if (this.el1.innerHTML < 0) {
+        this.el1.innerHTML = this.el1.innerHTML - 5;
+        if (this.el1.innerHTML <= 0) {
             this.el1.classList.toggle('crossed');
             this.el2.classList.toggle('crossed');
             this.el4.classList.toggle('crossed');
@@ -67,8 +67,8 @@ class Unit {
     };
 
     changeState2() {
-        this.el2.innerHTML = this.el2.innerHTML - 5
-        if (this.el2.innerHTML < 0) {
+        this.el2.innerHTML = this.el2.innerHTML - 5;
+        if (this.el2.innerHTML <= 0) {
             this.el1.classList.toggle('crossed');
             this.el2.classList.toggle('crossed');
             this.el4.classList.toggle('crossed');
@@ -76,5 +76,5 @@ class Unit {
             this.el2.innerHTML = 0;
         }
     };
-
 };
+

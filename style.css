@@ -6,9 +6,11 @@
 }
 
 html, body {
-    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     font-family: Arial, Helvetica, sans-serif;
-    background: url(pictures/bgtile.png);
+    background-image: url(pictures/1460356716186269565.jpg);
 }
 
 .choose_per {
@@ -25,10 +27,11 @@ html, body {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding-bottom: 200px;
 }
 
 .card {
-    background-color: #ffffff;
+    background-color: #d1e2db;
     padding: 20px;
     border-radius: 10px;
     margin-top: 100px;
@@ -67,21 +70,19 @@ html, body {
 }
 
 .health {
-    width: 100%;
     background-color: orangered;
     padding-top: 3px;
     padding-bottom: 3px;
-    border-radius: 3px;
+    border-radius: 20px;
     margin-bottom: 5px;
     border: 2px solid black;
 }
 
 .stamina {
-    width: 100%;
     background-color: darkorange;
     padding-top: 3px;
     padding-bottom: 3px;
-    border-radius: 3px;
+    border-radius: 20px;
     margin-bottom: 20px;
     border: 2px solid black;
 }
@@ -104,8 +105,6 @@ html, body {
     background-color: rgb(153, 201, 245);
     border-radius: 10px;
 }
-
-
 
 
 
